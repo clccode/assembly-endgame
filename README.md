@@ -6,4 +6,4 @@ instead of Hangman you eliminate common programming languages. If you lose, you'
 How to play: guess a letter on your way to solving the random word! If your guess is correct, you 
 lose no guesses. If it's wrong, one of the common programming languages disappears and you lost a guess.
 
-Try to guess the language before all your left with is Assembly!
+Try to guess the hidden word before all your left with is Assembly!
