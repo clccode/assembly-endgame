@@ -1,12 +1,9 @@
-# React + Vite
+# Assembly Endgame
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a fun capstone project from the Frontend Path at scrimba.com. It's a version of Hangman, but 
+instead of Hangman you eliminate common programming languages. If you lose, you're stuck with Assembly!
 
-Currently, two official plugins are available:
+How to play: guess a letter on your way to solving the random word! If your guess is correct, you 
+lose no guesses. If it's wrong, one of the common programming languages disappears and you lost a guess.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Try to guess the language before all your left with is Assembly!
