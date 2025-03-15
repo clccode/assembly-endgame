@@ -33,6 +33,7 @@ header > h1 {
 header > p {
   font-size: clamp(0.875rem, 4vw, 1rem); /* Responsive font size */
   max-width: 90%; /* Use percentage instead of fixed width */
+  margin: 0 auto;
   color: #8E8E8E;
 }
 
