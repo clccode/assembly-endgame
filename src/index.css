@@ -145,7 +145,6 @@ section.keyboard {
   justify-content: center;
   max-width: 90%;
   margin-bottom: 36px;
-  color: inherit; /* Inherit text color from parent */
   padding: 0; /* Remove default padding that might offset text */
 }
 
@@ -154,17 +153,33 @@ section.keyboard > button {
   width: clamp(30px, 8vw, 35px);
   font-size: clamp(0.8rem, 3vw, 1rem); /* Added responsive font size */
   background-color: #FCBA29;
+  color: #262626;
   border: 1px solid #D7D7D7;
   border-radius: 3px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  text-align: center;
+  line-height: 1; /* Normalize line height */
+  font-family: inherit; /* Ensure consistent font */
+  /* Reset all browser defaults that might interfere */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Force center alignment with transforms if needed */
+  position: relative;
 }
 
 section.keyboard > button.correct {
   background-color: #10A95B;
+  color: #262626;
 }
 
 section.keyboard > button.wrong {
   background-color: #EC5D49;
+  color: #262626;
 }
 
 section.keyboard > button:disabled {
@@ -178,12 +193,20 @@ button.new-game {
   border-radius: 4px;
   width: min(225px, 80%); /* Use the smaller of these two values */
   height: clamp(36px, 10vw, 40px); /* Responsive height */
-  padding: 6px 12px;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin-inline: auto;
   cursor: pointer;
-  color: #262626;
-  font-family: inherit; /* Ensure consistent font */
+  color: #262626; /* Explicit dark text color */
+  font-family: inherit;
+  font-weight: normal;
+  padding: 0;
+  text-align: center;
+  /* Reset all browser defaults */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 .sr-only {
