@@ -151,7 +151,7 @@ section.keyboard {
 section.keyboard > button {
   height: clamp(30px, 8vw, 35px); /* Responsive sizing */
   width: clamp(30px, 8vw, 35px);
-  font-size: clamp(0.8rem, 3vw, 1rem); /* Added responsive font size */
+  font-size: clamp(0.9rem, 3vw, 1.1rem); /* Added responsive font size */
   background-color: #FCBA29;
   color: #262626;
   border: 1px solid #D7D7D7;
